@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    color: rgb(31, 27, 102);
+}
+
+h2{
+    text-align: center;
+    color: rgb(29, 108, 96);
+}
+
+body{
+    background-color: rgb(255, 246, 233);
+}
+
+.kep{
+    width: 200px;
+}
+
+.hirek{
+    display: grid;
+    grid-template-columns: repeat(3, 275px);
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+}
+
+.hir{
+    border-radius: 10px;
+    background-color: rgb(139, 213, 215);
+    justify-items: center;
+}
+
+footer{
+    text-align: center;
+}
